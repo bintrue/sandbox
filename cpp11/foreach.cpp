@@ -10,7 +10,7 @@ int main()
   myMap[0] = "asdf";
   myMap[1] = "hahaha";
 
-  for ( auto i : myMap )
+  for ( auto const & i : myMap )
   {
     std::cout << "K: " << i.first << " V: " << i.second << std::endl;
   }
